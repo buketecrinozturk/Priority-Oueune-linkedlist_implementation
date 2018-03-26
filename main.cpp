@@ -16,9 +16,9 @@ int main()
 {
 	int secim, eleman, oncelik_durumu, dongu=1;
 	printf("\n 1 - Eleman Ekleme islemi");
-    printf("\n 2 - Eleman Cikarma islemi");
-    printf("\n 3 - Eleman Sergileme islemi");
-    printf("\n 4 - Cikis");
+    	printf("\n 2 - Eleman Cikarma islemi");
+    	printf("\n 3 - Eleman Sergileme islemi");
+    	printf("\n 4 - Cikis");
     
 while(dongu==1)
 {
@@ -95,7 +95,7 @@ elemanlariGoster();
 
 /************************** Kuyruk Eleman Silme Kismi ***************************///buketecrinozturk
 
-void del() //remove elements
+void del()
 {
 	if(oncelikli_kuyruk!=NULL)
 	{
